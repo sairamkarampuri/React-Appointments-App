@@ -1,0 +1,39 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.appointment-item {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 30%;
+  gap: 10px;
+}
+.appointment-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171f46;
+  margin-bottom: 10px;
+}
+.appointment-date {
+  font-size: 14px;
+  color: #b5b7c4;
+}
+.star-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media (width <=768px) {
+  .appointment-item {
+    width: 100%;
+  }
+}
